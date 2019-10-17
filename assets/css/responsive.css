@@ -1,0 +1,547 @@
+/* Medium Layout: 1367px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1367px) {
+
+}
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.register-content h2 {
+		font-size: 46px;
+		line-height: 65px;
+	}
+
+	.register-area {
+		height: 737px;
+	}
+
+	.schedulee-area .center {
+	    text-align: center;
+	    width: 135%;
+	}
+
+	.draw-border {
+		position: relative;
+		font-size: 2.2vw;
+		box-shadow: inset 0 0 0 0.5vw #350441;
+		right: 28.4%;
+		top: 10px;
+		width: 43.5%;
+		height: 51%;
+	}
+
+	.draw-border2 {
+		position: relative;
+		font-size: 2.2vw;
+		box-shadow: inset 0 0 0 0.5vw #350441;
+		right: 28.4%;
+		bottom: 23px;
+		width: 43.5%;
+		height: 51%;
+	}
+
+	.draw-border3 {
+		position: relative;
+		font-size: 2.2vw;
+		box-shadow: inset 0 0 0 0.5vw #350441;
+		right: 28.4%;
+		bottom: 55px;
+		width: 43.5%;
+		height: 51%;
+	}
+
+	.schedulee-single p {
+		/*top: 600%;*/
+		bottom: 3.8rem;
+		font-size: 19px;
+		left: 22%;
+		line-height: 22px;
+	}
+
+	.schedulee-single .par2{
+	  	bottom: 7rem;
+	}
+
+	.schedulee-single .par3{
+	  	bottom: 10rem;
+	  	padding-bottom: 50px;
+
+	}
+
+	.schedulee-area .schedule_fx {
+	 	position: relative;
+	  	top: 0px;
+	  	left: 1vw;
+  	}
+
+  	.schedule_fx .text-effect{
+  		font-size: 550%;
+  		margin-top: 30px;
+  		margin-bottom: 30px;
+  	}
+
+  	.sponsor-area .sponsor_fx {
+	 	position: relative;
+	  	top: 35px;
+	  	left: 1vw;
+  	}
+
+  	.sponsor_fx .text-effect{
+  		font-size: 550%;
+  		margin-top: 30px;
+  		margin-bottom: 30px;
+  	}
+
+  	.team-area .team_fx {
+	 	position: relative;
+	  	top: 35px;
+	  	left: 1vw;
+  	}
+
+  	.team_fx .text-effect{
+  		font-size: 500%;
+  		margin-top: 20px;
+  		margin-bottom: 40px;
+  	}
+
+    
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.register-content h2 {
+		font-size: 44px;
+		line-height: 58px;
+	}
+	.register-area {
+		height: 530px;
+		padding-top: 135px;
+	}
+
+	.faq-area {
+		padding: 100px 0px;
+	}
+
+	.team-area{
+		padding: 70px 0px 50px;
+	}
+
+	.team-item {
+		margin-bottom: 20px;
+	}
+
+	.schedulee-area .center {
+    	width: 135%;
+    	left: 10px;
+	}
+
+	.schedulee-single h1 {
+		position: relative;
+		top: 10px;
+		font-size: 26px;
+		font-family: ADAM.CG PRO;
+		font-weight: 600;
+		color: #CC74A5;
+	}
+
+	.schedulee-single h3 {
+	  	position: relative;
+	  	top: 30px;
+	  	font-size: 27px;
+	  	font-family: ADAM.CG PRO;
+	  	font-weight: 900;
+	  	color: #CC74A5;
+	}
+
+	.schedulee-single p {
+		/*top: 600%;*/
+		bottom: 2.7rem;
+		font-size: 15px;
+		left: 22%;
+		line-height: 15px;
+	}
+
+	.schedulee-single .par2{
+	  	bottom: 4.5rem;
+	}
+
+	.schedulee-single .par3{
+	  bottom: 6.3rem;
+	  padding-bottom: 50px;
+
+	}
+
+	.draw-border {
+		position: relative;
+		font-size: 2.2vw;
+		box-shadow: inset 0 0 0 0.5vw #350441;
+		right: 28.4%;
+		top: 10px;
+		width: 43.5%;
+		height: 51%;
+	}
+
+	.draw-border2 {
+		position: relative;
+		font-size: 2.2vw;
+		box-shadow: inset 0 0 0 0.5vw #350441;
+		right: 28.4%;
+		bottom: 10px;
+		width: 43.5%;
+		height: 51%;
+	}
+
+	.draw-border3 {
+		position: relative;
+		font-size: 2.2vw;
+		box-shadow: inset 0 0 0 0.5vw #350441;
+		right: 28.4%;
+		bottom: 30px;
+		width: 43.5%;
+		height: 51%;
+	}
+
+	.faq-area .FAQ_fx {
+	 	position: relative;
+	  	left: 1vw;
+  	}
+
+  	.FAQ_fx .text-effect{
+  		font-size: 550%;
+  		bottom: 18px;
+  	}
+
+  	.schedulee-area .schedule_fx {
+	 	 position: relative;
+	  	top: 0px;
+	  	left: 1vw;
+	  	margin-bottom: 25px;
+  	}
+
+  	.schedule_fx .text-effect{
+  		font-size: 550%;
+  	}
+
+	.sponsor-area .sponsor_fx {
+	 	 position: relative;
+	  	top: 35px;
+	  	left: 1vw;
+  	}
+
+  	.sponsor_fx .text-effect{
+  		font-size: 550%;
+  		margin-top: 30px;
+  		margin-bottom: 25px;
+  	}
+
+	.team-area .team_fx {
+	 	position: relative;
+	  	top: 35px;
+	  	left: 1vw;
+  	}
+
+  	.team_fx .text-effect{
+  		font-size: 500%;
+  		margin-top: 20px;
+  		margin-bottom: 40px;
+  	}
+}
+
+/* Max Size: 320px. */
+@media screen and (max-width: 991px) {
+    .logo a img {
+        max-width: 127px;
+    }
+    .logo {
+        margin: 0px 0px 0px;
+    }
+    .header-area {
+		background: #350441;
+		z-index: 9;
+		box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	}
+	.slicknav_nav a {
+		color: #fff !important;
+	}
+	.slicknav_nav a:hover {
+		background: #444;
+	}
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	.header-area {
+		position: absolute;
+	}
+
+	.schedulee-area .center {
+    width: 100%;
+	}
+
+	.draw-border {
+	  right: 135px;
+	  bottom:50px;
+	  width: 205px;
+	  height: 72px;
+	  margin-bottom: 20px;
+	}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.register-content h2 {
+		font-size: 37px;
+		line-height: 54px;
+	}
+
+	.register-content p {
+		font-size: 14px;
+	}
+
+	.register-area {
+		height: auto;
+		min-height: 100vh;
+		padding-top: 137px;
+		padding-bottom: 66px;
+	}
+
+	.sponsor-area .logos {
+		margin-left: 45px;
+		width: 80%;
+		height: 80%;
+	}
+
+	.team-area{
+		padding: 60px 0px 40px;
+	}
+
+	.team-item {
+		margin-bottom: 20px;
+		display: inline-block;
+	}
+	
+	.sponsor-single {
+		margin-bottom: 70px;
+	}
+
+	.schedulee-single p {
+		bottom: 70px;
+	}
+
+	.draw-border {
+		box-shadow: inset 0 0 0 7px #350441;
+		right: 135px;
+		top: 10px;
+		width: 205px;
+		height: 74px;
+	}
+
+	.draw-border2 {
+		box-shadow: inset 0 0 0 7px #350441;
+		right: 135px;
+		bottom: 55px;
+		width: 205px;
+		height: 74px;
+	}
+
+	.draw-border3 {
+		box-shadow: inset 0 0 0 7px #350441;
+		right: 135px;
+		bottom: 100px;
+		width: 205px;
+		height: 74px;
+	}
+    
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+
+	.register-area {
+		background: url(../img/bg/mobile.jpg) center center/cover no-repeat;
+    	position: relative;
+    	blo
+	}
+
+	.buttons button {
+	/*	position: relative;*/
+	  	top: 40vh;
+	  	left: 7%;
+	}
+
+	.register-area video { 
+		display: none; 
+	}
+
+	.register-nner h2 {
+		font-size: 240%;
+		text-align: center;
+		line-height: 80px;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.register-content p {
+		font-size: 14px;
+	}
+
+	.register-area {
+		height: auto;
+		min-height: 100vh;
+		padding-top: 137px;
+		padding-bottom: 66px;
+	}
+
+	.faq-area{
+		padding: 100px 0px;
+	}
+
+	.faq-content h2 {
+		font-size: 25px;
+	}
+	.feature-area,
+	.sponsor-area {
+		padding: 60px 0px 20px;
+	}
+
+	.team-area{
+		padding: 60px 0px 40px;
+	}
+
+	.team-item {
+		margin-bottom: 20px;
+		display: inline-block;
+	}
+
+	.faq-area .sponsor_fx2 {
+	 	position: relative;
+	 	right: 40px;
+	 	bottom: 0px;
+	}
+
+	.faq-area .FAQ_fx {
+	 	position: relative;
+	  	top: 20px;
+	  	left: 1vw;
+  	}
+
+  	.FAQ_fx .text-effect{
+  		font-size: 550%;
+  	}
+
+	.sponsor-single {
+		/*margin-bottom: 40px;*/
+		bottom: 150px;
+	}
+	.sponsor-single .icon {
+		font-size: 45px;
+		margin-bottom: 12px;
+	}
+	.sponsor-single h2 {
+		font-size: 46px;
+		line-height: 44px;
+	}
+
+	.schedulee-area .schedule_fx {
+	 	position: relative;
+	  	top: 0px;
+	  	left: 1vw;
+  	}
+
+  	.schedule_fx .text-effect{
+  		font-size: 400%;
+  	}
+
+	.schedulee-single p {
+		/*top: 600%;*/
+		bottom: 6.4rem;
+		font-size: 5.9vw;
+		left: 22%;
+
+	}
+
+	.schedulee-single .par2{
+	  	bottom: 11.2rem;
+
+	}
+
+	.schedulee-single .par3{
+	  bottom: 15.5rem;
+	  padding-bottom: 50px;
+
+	}
+
+	div.schedulee-single {
+		/*position: relative;*/
+		height: 40rem;		
+	}
+
+	.draw-border {
+		position: relative;
+		font-size: 7vw;
+		box-shadow: inset 0 0 0 1.5vw #350441;
+		right: 28.4%;
+		top: 10px;
+		width: 43.5%;
+		height: 50%;
+	}
+
+	.draw-border2 {
+		position: relative;
+		font-size: 7vw;
+		box-shadow: inset 0 0 0 1.4vw #350441;
+		right: 28.4%;
+		bottom: 55px;
+		width: 43.5%;
+		height: 50%;
+	}
+
+	.draw-border3 {
+		position: relative;
+		font-size: 7vw;
+		box-shadow: inset 0 0 0 1.5vw #350441;
+		right: 28.4%;
+		bottom: 100px;
+		width: 43.5%;
+		height: 50%;
+
+	}
+
+	.schedulee-area .schedule_fx {
+	 	position: relative;
+	 	right: 40px;
+	 	bottom: 0px;
+	}
+
+	.sponsor-area .sponsor_fx {
+	 	position: relative;
+	  	top: 35px;
+	  	left: 1vw;
+  	}
+
+  	.sponsor_fx .text-effect{
+  		font-size: 400%;
+  	}
+
+	.team-area .team_fx {
+	 	position: relative;
+	  	top: 35px;
+	  	left: 1vw;
+	  	margin-bottom: 30px;
+  	}
+
+  	.team_fx .text-effect{
+  		font-size: 350%;
+  	}
+
+	.footer-inner .fsocial li a {
+		height: 50px;
+		width: 50px;
+		line-height: 50px;
+	}
