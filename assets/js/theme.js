@@ -8,8 +8,15 @@
     
 
 */
-// -----------------------------
+// ----------------------------
 
+function copy() {
+    var copyText = document.createElement('div');
+    copyText.innerHTML = "hello@dooleyhacks.com";
+    copyText.select();
+    document.execCommand("copy");
+    copyText.remove();
+}
 
 (function($) {
     "use strict";

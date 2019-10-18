@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Fugaz One');
 
+
 .clear {
     clear: both
 }
@@ -380,23 +381,19 @@ textarea {
   ===========================*/
 
 .faq-area {
-    background-color: #ffaac3;
-    padding-top: 100px;
-
-
-  /*  background: url(../img/bg/bg3.jpg) center center/cover no-repeat;
-    position: relative;*/
-/*    background-color: #f98dc9;*/
+  padding-top: 100px;
+  position: relative;
+  background-color: #241734;
 }
 
 .faq-area .FAQ_fx {
-   position: relative;
-    top: 20px;
-    left: 1vw;
+  position: relative;
+  top: 20px;
+  left: 1vw;
 }
 
 .FAQ_fx .text-effect{
-      font-size: 550%
+      font-size: 550%;
       margin-top: 40px;
 }
 
@@ -481,8 +478,8 @@ input[type='checkbox'] {
 
   padding: 1rem;
 
-  color: #F2CCFA;
-  background: #6F2E74;
+  color: #fff;
+  background: #540d6e;
 
   cursor: pointer;
 
@@ -534,7 +531,7 @@ input[type='checkbox'] {
 }
 
 .collapsible-content .content-inner {
-  background: #EEBDFF;
+  background: #ebe0ff;
   border-bottom: 1px solid rgba(250, 224, 66, .45);
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -552,7 +549,7 @@ input[type='checkbox'] {
 .schedulee-area {
 /*   background: url(../img/bg/bg4.jpg) center center/cover no-repeat;
     position: relative;*/
-    background-color: #d7fffe;
+    background-color: #241734;
 
 }
 
@@ -581,15 +578,16 @@ input[type='checkbox'] {
 }
 
 .text-effect{
-    color: #350441;
+    color: #2DE2E6;
+    text-shadow: 0px 0px 15px #2de2e6;
     font-size: 80px;
-    font-weight: 600;
+    font-weight: lighter;
     font-family: sans-serif;
     text-align: center;
     display: block;
     /*animation: effect linear 2000ms infinite;*/
     position: relative;
-    bottom:40px;
+    bottom: 40px;
 }
 @keyframes effect {
    0%{
@@ -824,7 +822,7 @@ sponsor Area
 .sponsor-area {
 /*  background: url(../img/bg/bg5.jpg) center center/cover no-repeat;
     position: relative;*/
-    background-color: #a8f6f8;
+    background-color: #241734;
 }
 
 .sponsor-single {
@@ -868,7 +866,7 @@ sponsor Area
 .sponsor-single span {
     display: block;
     font-size: 18px;
-    color: #350441;
+    color: #fff;
     font-weight: 500;
     letter-spacing: 0;
     margin-top: 9px;
@@ -897,7 +895,7 @@ END sponsor Area
 
 .team-area {
 /*    text-align: center;*/
-    background-color: #f98dc9
+    background-color: #241734
 /*    background: url(../img/bg/bg6.jpg) center center/cover no-repeat;
     position: relative;*/
 }
@@ -905,7 +903,7 @@ END sponsor Area
 .team-area .row5 h1 {
     font-size: 60px;
     font-weight: 500;
-    color: #350441;
+    color: #fff;
     line-height: 50px;
     margin-bottom: 40px;
 }
@@ -919,7 +917,7 @@ END sponsor Area
 }
 
 .team-area .row5 h3 {
-    color: #350441;
+    color: #fff;
     font-family: Raleway;
     font-weight: 900;
 }
@@ -936,8 +934,12 @@ END sponsor Area
 .our-team .title {
     font-size: 60px;
     font-weight: 500;
-    color: #350441;
+    color: #fff;
     line-height: 50px;
+}
+
+.subtitle {
+  color: #888;
 }
 
 .our-team .pic:before{
@@ -945,7 +947,7 @@ END sponsor Area
     width: 100%;
     height: 0;
     border-radius: 50px;
-    background: #350441;
+    background: #fff;
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -962,7 +964,7 @@ END sponsor Area
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #350441;
+    background: #fff;
     position: absolute;
     top: 0;
     left: 0;
@@ -978,7 +980,7 @@ END sponsor Area
 }
 
 .our-team:hover .pic img{
-    box-shadow: 0 0 0 14px #f98dc9;
+    box-shadow: 0 0 0 14px #fd019d;
     transform: scale(0.7);
 }
 
