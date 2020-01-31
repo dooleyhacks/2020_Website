@@ -1,8 +1,14 @@
 /*font*/
 
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Fugaz One');
+@import url('https://fonts.googleapis.com/css?family=Channel');
+
 
 
 .clear {
@@ -382,8 +388,16 @@ textarea {
 
 .faq-area {
   padding-top: 100px;
-  position: relative;
-  background-color: #241734;
+/*  position: relative;*/
+  background-color: #20062e;
+  background-image: url(https://s5.gifyu.com/images/faqanimation2.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  background-image: url(https://s5.gifyu.com/images/faqanimation.gif), url(../img/bg/bg3.jpg);
+  background-position: center center, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;*/
 }
 
 .faq-area .FAQ_fx {
@@ -398,6 +412,7 @@ textarea {
 }
 
 .faq-left-thumb {
+  background-size: cover;
   margin-top: 40px;
    margin-bottom: 70px;
 }
@@ -479,7 +494,7 @@ input[type='checkbox'] {
   padding: 1rem;
 
   color: #fff;
-  background: #540d6e;
+  background: #680880;
 
   cursor: pointer;
 
@@ -549,7 +564,7 @@ input[type='checkbox'] {
 .schedulee-area {
 /*   background: url(../img/bg/bg4.jpg) center center/cover no-repeat;
     position: relative;*/
-    background-color: #241734;
+    background-color: #25052e;
 
 }
 
@@ -573,22 +588,44 @@ input[type='checkbox'] {
 
 .schedule_fx .text-effect{
       font-size: 550%;
-      margin-top: 30px;
-      margin-bottom: 30px;
+      margin-top: 1%;
+      margin-bottom: 5%;
+}
+
+.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    max-width:50%;
+    max-height:50%;
 }
 
 .text-effect{
     color: #2DE2E6;
     text-shadow: 0px 0px 15px #2de2e6;
     font-size: 80px;
-    font-weight: lighter;
-    font-family: sans-serif;
+    /*font-weight: 600;*/
+    font-family: 'Neon 80s';
     text-align: center;
     display: block;
     /*animation: effect linear 2000ms infinite;*/
     position: relative;
-    bottom: 40px;
+    bottom:40px;
+
+/*    color: #2DE2E6;
+    text-shadow: 0px 0px 15px #2de2e6;
+    font-size: 80px;
+    font-weight: lighter;
+    font-family: 'ADAM.CG PRO';
+    text-align: center;
+    display: block;
+    animation: effect linear 2000ms infinite;
+    position: relative;
+    bottom: 40px;*/
+
 }
+
+
 @keyframes effect {
    0%{
         text-shadow:
@@ -822,18 +859,49 @@ sponsor Area
 .sponsor-area {
 /*  background: url(../img/bg/bg5.jpg) center center/cover no-repeat;
     position: relative;*/
-    background-color: #241734;
+    background-color: #2c0436;
+    margin-top: 0px !important;
+  padding-top: 0px !important;
+
+      margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+
 }
 
 .sponsor-single {
  text-align: center; margin: auto;
+/* margin-top: 0px !important;
+  padding-top: 0px !important;*/
+}
+
+.sponsor-area .container {
+/*  margin-top: 0px !important;
+  padding-top: 0px !important;*/
+
+  background-image: url(https://s5.gifyu.com/images/Hand.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  
 }
 
 
 .sponsor-area .center {
     
 }
-.sponsor-area img {
+
+
+
+/*.sponsor-area img {
+    margin-left: auto;
+    margin-right: 600px;
+    margin-bottom: 10%;
+    max-width:50%;
+    max-height:50%;
+
+}*/
+/*.sponsor-area img {
     width: 40%;
     height: 40%;
   -webkit-transition: all 1s ease;
@@ -841,13 +909,13 @@ sponsor Area
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
-}
+}*/
 
-.sponsor-area img:hover {
+/*.sponsor-area img:hover {
   width: 50%;
   height: 50%;
 }
-
+*/
 .sponsor-single .icon {
     font-size: 57px;
     color: #fff;
@@ -880,7 +948,7 @@ sponsor Area
 
 .sponsor_fx .text-effect{
       font-size: 550%;
-      margin-top: 30px;
+      margin-top: 10vh;
       margin-bottom: 30px;
 }
 
@@ -895,7 +963,7 @@ END sponsor Area
 
 .team-area {
 /*    text-align: center;*/
-    background-color: #241734
+    background-color: #3e0944;
 /*    background: url(../img/bg/bg6.jpg) center center/cover no-repeat;
     position: relative;*/
 }
@@ -917,9 +985,13 @@ END sponsor Area
 }
 
 .team-area .row5 h3 {
-    color: #fff;
+    color: #FAB5DB;
     font-family: Raleway;
-    font-weight: 900;
+}
+
+.team-area .row5 h4 {
+    color: #B772A4;
+    font-family: RalewayT;
 }
 
 .our-team .pic{
@@ -964,11 +1036,12 @@ END sponsor Area
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #fff;
+    background: #FAB5DB;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
+    B772A4
 }
 
 .our-team .pic img{
@@ -980,7 +1053,7 @@ END sponsor Area
 }
 
 .our-team:hover .pic img{
-    box-shadow: 0 0 0 14px #fd019d;
+    box-shadow: 0 0 0 14px #DB67AC;
     transform: scale(0.7);
 }
 
@@ -1069,3 +1142,19 @@ END footer Area
 html, body {
   overflow-x: hidden;
 }
+
+@font-face{
+   font-family: 'Neon 80s';
+   src: url('../fonts/Neon.ttf')  format('truetype');
+ }
+
+ @font-face{
+   font-family: 'Raleway';
+   src: url('../fonts/Raleway-Regular.ttf')  format('truetype');
+ }
+
+@font-face{
+   font-family: 'RalewayT';
+   src: url('../fonts/Raleway-SemiBold.ttf')  format('truetype');
+ }
+ 
