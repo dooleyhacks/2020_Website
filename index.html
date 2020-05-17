@@ -1,267 +1,517 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>DooleyHacks</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Mobile Specific Meta  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- icon -->
-    <link rel="shortcut icon" type="image/png" href="assets/img/icon/DooleyHacks3.png" />
-    <!-- MailChimp Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-    </style>
-
+    <link rel="shortcut icon" type="image/png" href="assets/img/icon/DooleyHacks.png" />
 </head>
+
 <body>
-    <!--- Nav Bar --->
-    <nav class="navbar  navbar-custom navbar-expand-md ">
-        <a class="navbar-brand" href="#" style="font-size: x-large">
-            <img src="assets/img/icon/DooleyHacks2.png" alt="DooleyHacks logo" width="86px" height="86px"><b>DooleyHacks</b>
-        </a>
-        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#upcoming">Upcoming</a>
-                <a class="nav-item nav-link" href="#about">About</a>
-                <a class="nav-item nav-link" href="#team">Team</a>
-                <a class="nav-item nav-link" href="#sponsor">Sponsor</a>
-                <a class="nav-item nav-link" href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
-
-    <section class="blank-space-large"></section>
-
-    <!--- Upcoming --->
-    <main id="upcoming">
-        <div class="container my-5">
-            <div class="jumbotron text-left">
-                <div class="row flex-row">
-                    <div class="col-9">
-                        <h1>Thank you for attending in the Spring!</h1>
-                    </div>
-                    <div class="col">
-                        <img src="assets/img/icon/DooleyHacks3.png" style="max-width: 150px">
-                    </div>
-                </div>
-
-                <h4 style="color: #d2a700 ">Stay Tuned for DooleyHacks 2021</h4>
-            </div>
-        </div>
-    </main>
-
-    <section class="blank-space-large"></section>
-
-    <!--- About --->
-    <main id="about">
-        <div class="container my-auto">
-            <div class="jumbotron text-left">
-                <h1 class="text-center">About Us:</h1>
-                <p style="color: #d2a700 ">DooleyHacks is Emory University’s revitalized Hackathon, presented by our
-                    premiere tech club HackEmory.</p>
-                <p style="color: #d2a700 ">While HackEmory has been focusing on smaller community-level projects in
-                    recent years, we are have been launching large-scale events,
-                    namely our 2020 Hackathon “NextGen” last spring. With a vision of gathering the
-                    community of people interested in various technologies, HackEmory
-                    believes that this is truly the perfect era for establishing the “next
-                    generation” of Emory’s focus on innovation through DooleyHacks.</p>
-                <p style="color: #d2a700 ">Emory prides itself in its well-rounded liberal arts education, with students
-                    adopting a multidisciplinary approach to their academics and striving to
-                    create a curriculum in which they may satisfy their intellectual curiosity. A
-                    large portion of students at Emory undertake a health or business track, but
-                    many of them express a strong interest in the tech world -- evident through
-                    previous Hackathons and campus-wide events.</p>
-                <p style="color: #d2a700 ">HackEmory is excited to foster the community from the ground up by
-                    bringing together students of varying interests into our neoteric facility -- all
-                    features that collectively allow DooleyHacks to stand out.</p>
-            </div>
-        </div>
-    </main>
-
-    <!--- Team --->
-    <main id="team">
-        <div class="container my-auto">
-            <div class="jumbotron">
-                <h1 class="text-center">Our Team:</h1>
-                <div class="col">
-                    <div class="row justify-content-center my-5">
-                        <div class="col">
-                            <div class="card zoom">
-                                <img src="assets/img/team/zack.jpg" alt="John" style="width:100%">
-                                <section class="blank-space"></section>
-                                <h4> Zack Severino </h4>
-                                <p class="title">Co-Director</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card zoom">
-                                <img src="assets/img/team/anthony.jpg" alt="John" style="width:100%">
-                                <section class="blank-space"></section>
-                                <h4> Anthony Wong </h4>
-                                <p class="title">Co-Director</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card zoom">
-                                <img src="assets/img/team/andrew.jpg" alt="John" style="width:100%">
-                                <section class="blank-space"></section>
-                                <h4>Andrew Chiang</h4>
-                                <p class="title">Co-Director - Finance</p>
-                            </div>
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- preloader area end -->
+    <!-- header area start -->
+    <header class="header-area" style="z-index: 1000;">
+        <div class="container">
+            <div class="row">
+                <div class="menu-area">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="logo">
+                            <a href="#home"><img src="assets/img/icon/dooley.png" alt="DooleyHacks logo" width="86px" height="86px"></a>
                         </div>
                     </div>
-                    <div class="row justify-content-center my-5">
-                        <div class="col">
-                            <div class="card zoom">
-                                <img src="assets/img/team/isaac.jpg" alt="John" style="width:100%">
-                                <section class="blank-space"></section>
-                                <h4>Issac Yoo</h4>
-                                <p class="title">Co-Director - Finance</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card zoom">
-                                <img src="assets/img/team/temi.jpg" alt="John" style="width:100%">
-                                <section class="blank-space"></section>
-                                <h4>Temi Kelly</h4>
-                                <p class="title">Director - Marketing</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card zoom">
-                                <img src="assets/img/team/amin.jpg" alt="John" style="width:100%">
-                                <section class="blank-space"></section>
-                                <h4>Amin El Asery</h4>
-                                <p class="title">Head of Design</p>
-                            </div>
+                    <div class="col-md-9 hidden-xs hidden-sm">
+                        <div class="main-menu">
+                            <nav class="nav-menu">
+                                <ul>
+                                    <li class="active"><a href="#home">Home</a></li>
+                                    <li><a href="#faq">FAQ</a></li>
+                                    <li><a href="#schedule">Schedule</a></li>
+                                    <li><a href="#sponsor">Sponsor</a></li>
+                                    <li><a href="#team">Team</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
-                    <div class="row justify-content-center my-5">
-                        <div class="col">
-                            <div class="card zoom">
-                                <img src="assets/img/team/lucy.jpg" alt="John" style="width:100%">
-                                <section class="blank-space"></section>
-                                <h4>Lucy Sun</h4>
-                                <p class="title">Treasurer</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card zoom">
-                                <img src="assets/img/team/abraham.jpg" alt="John" style="width:100%">
-                                <section class="blank-space"></section>
-                                <h4>Abraham Aravelo</h4>
-                                <p class="title">Finance</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card zoom">
-                                <img src="assets/img/team/chris.jpg" alt="John" style="width:100%">
-                                <section class="blank-space"></section>
-                                <h4>Chris Wyllie</h4>
-                                <p class="title">Founder</p>
-                            </div>
-                        </div>
+                    <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
+                        <div class="mobile_menu"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
-
-    <!--- Sponsor --->
-    <main id="sponsor">
-        <div class="container my-auto">
-            <div class="jumbotron">
-                <h1 class="text-center">Our Sponsors:</h1>
-                <div class="col">
-                    <div class="row justify-content-center my-5">
-                        <div class="col">
-                            <a href="https://www.dragonbowlatl.com/"><img src="assets/img/icon/dragonbowl.png" class="sponsor zoom"></a>
-                        </div>
-                        <div class="col">
-                            <a href="https://www.luckysburgerandbrew.com/"><img src="assets/img/icon/luckys.png" class="sponsor zoom"></a>
-                        </div>
-                        <div class="col">
-                            <a href="https://www.cs.emory.edu/home/"><img src="assets/img/icon/EmoryCS.jpg" class="sponsor zoom"></a>
-                        </div>
+    </header>
+    <!-- header area end -->
+    <!-- register area start -->
+    <section class="register-area" id="home">
+        <video autoplay loop muted poster id="vid">
+            <source src="assets/vid/dooleyHacks_animation.mov" type="video/mp4">
+        </video>
+        </div>
+        <div class="container">
+            <div class="register-content">
+                <div class="col-md-8 col-sm-9 col-xs-12 d-flex flex-center">
+                    <div class="register-nner">
+                        <h2 style="text-align: left;">Feb 21st-23rd<br>Atlanta, GA</h2>
+                        <h6>Registration now Open!</h6>
                     </div>
-                    <div class="row justify-content-center my-5">
-                        <div class="col">
-                            <a href="http://www.thegeneralmuir.com/"><img src="assets/img/icon/generalMuir.png" class="sponsor zoom"></a>
-                        </div>
-                        <div class="col">
-                            <a href="http://quantitative.emory.edu/index.html"><img src="assets/img/icon/emoryQSS.png" class="sponsor zoom"></a>
-                        </div>
-                        <div class="col">
-                            <a href="https://contrarycap.com/"><img src="assets/img/icon/contrary.png" class="sponsor zoom"></a>
-                        </div>
-                    </div>
+                    <div class="buttons">
+                        <button onclick="window.open('https://forms.gle/XktKtXhSqiKEea969', '_blank')" class="btn-hover color-5">REGISTER</button>
+                    </div>  
                 </div>
-                <h2 class="text-center"> Interested in Sponsoring Us?</h2>
-                <h4 class="text-center" style="color: #d2a700"> Email us at: sponsor@dooleyhacks.com</h4>
             </div>
         </div>
-    </main>
+    </section>
+    <!-- register area end -->
+    <!-- FAQ area start -->
+    <section class="faq-area ptb--110" id="faq">
+        <div class="container">
+            <div class="row">
+            	<div class="FAQ_fx">
+				    	<span1 class="text-effect">faq</span1>
+				</div>
+                <div class="col-md-5 hidden-sm hidden-xs">
+                	
+                    <div class="faq-left-thumb">
+                        <img src="assets/img/icon/info.svg" alt="sponsor logo">
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="faq-content">                 
+					<div class="wrap-collabsible">
+					  <input id="collapsible" class="toggle" type="checkbox" />
+					  <label for="collapsible" class="lbl-toggle">What is a Hackathon?</label>
+					  <div class="collapsible-content">
+					    <div class="content-inner">
+					      <p>
+                                Hackathons are events where students from across the country come together for a weekend of innovation and creativity. Participants have 36 hours to create anything that shows off their creativity and passion for development. You may choose any platform, programming language, or format to show your stuff. You can even present a storyboard or idea; there’s no end to the possibilities!			  
+					      </p>
+					    </div>
+					  </div>
+                    </div>
+                    <div class="wrap-collabsible">
+                      <input id="collapsible4" class="toggle" type="checkbox" />
+                      <label for="collapsible4" class="lbl-toggle">What if I've never been to a Hackathon?</label>
+                      <div class="collapsible-content">
+                        <div class="content-inner">
+                        <p>
+                            No worries! Prior to the event, we'll be sending out our Hacker guide, detailing the ways we think you can make the most out of your weekend. During the event, the DooleyHacks team will be available for questions. As always, feel free to reach out to us at hello@dooleyhacks.com if you have any other questions!
+                        </p>
+                        </div>
+                      </div>
+                    </div>
+			<div class="wrap-collabsible">
+			  <input id="collapsible2" class="toggle" type="checkbox" />
+			  <label for="collapsible2" class="lbl-toggle">Who can apply?</label>
+			  <div class="collapsible-content">
+			    <div class="content-inner">
+			      <p>
+				Anyone who is 18 or older (Yes, we check IDs!) and a currently enrolled college student with a valid student ID is eligible for our event. 		  
+			      </p>
+			    </div>
+			  </div>
+			</div>
+			<div class="wrap-collabsible">
+			  <input id="collapsible3" class="toggle" type="checkbox" />
+			  <label for="collapsible3" class="lbl-toggle">What should I bring?</label>
+			  <div class="collapsible-content">
+			    <div class="content-inner">
+			      <p>
+				Make sure to bring your photo ID, laptop, phone, chargers, toiletries, a change of clothes, and anything else you may want during the weekend! Make sure to bring a government-issued ID if you plan on checking out hardware.  
+			      </p>
+			    </div>
+			  </div>
+			</div>
+			<div class="wrap-collabsible">
+			  <input id="collapsible5" class="toggle" type="checkbox" />
+			  <label for="collapsible5" class="lbl-toggle">How do I form or join a team? Do I need a team?</label>
+			  <div class="collapsible-content">
+			    <div class="content-inner">
+			      <p>
+				We encourage everybody to get in teams of up to 4 Hackers, and we will help facilitate this with a team-forming event at the start of the Hackathon, as well as a slack channel for team-formation that all participants will be added to prior to the weekend. However, teams are not necessary, so feel free to work individually.	  
+			      </p>
+			    </div>
+			  </div>
+			</div>
+			<div class="wrap-collabsible">
+			  <input id="collapsible6" class="toggle" type="checkbox" />
+			  <label for="collapsible6" class="lbl-toggle">Is there reimbursement for travel?</label>
+			  <div class="collapsible-content">
+			    <div class="content-inner">
+			      <p>
+				Currently, travel reimbursement is not something we are able to provide for our Hackers. However, this is contingent on response and sponsorship, so please let us know in your application if you'll need reimbursement, and we'll see what we can do!		  
+			      </p>
+			    </div>
+			  </div>
+			</div>
+			<div class="wrap-collabsible">
+			  <input id="collapsible7" class="toggle" type="checkbox" />
+			  <label for="collapsible7" class="lbl-toggle">Do I need to stay the whole time?</label>
+			  <div class="collapsible-content">
+			    <div class="content-inner">
+			      <p>
+				As college students ourselves, we understand how busy things can get. You're welcome to come and go from the event as you please, but make sure to keep your registration badge on you at all times, without it you won't be re-admitted to the venue!
+			      </p>
+			    </div>
+			  </div>
+                    </div>
+		    <div class="wrap-collabsible">
+                      <input id="collapsible8" class="toggle" type="checkbox" />
+                      <label for="collapsible8" class="lbl-toggle">I have no idea how to code. Can I still attend?</label>
+                      <div class="collapsible-content">
+                        <div class="content-inner">
+                        <p>
+                          Absolutely! A Hackathon is primarily a learning experience, and we welcome applicants regardless of experience in tech, so long as you're willing to learn. To help bring you up to speed, we will have beginner's workshops throughout the weekend, and our mentors can help you along the way.
+                        </p>
+                        </div>
+                      </div>
+                    </div>
+					<div class="wrap-collabsible">
+                      <input id="collapsible9" class="toggle" type="checkbox" />
+                      <label for="collapsible9" class="lbl-toggle">Why is it called DooleyHacks?</label>
+                      <div class="collapsible-content">
+                        <div class="content-inner">
+                        <p>
+                          Claire E. Dooley is Emory's unofficial mascot, and our Lady of Misrule. We feel that she truly embodies the feel of the Hackathon, and as her motto states, <i>"Presidents may come, presidents may go; professors may come, professors may go; students may come, students may go; but Dooley goes on forever!"</i>. Read more about her <a href="https://www.emory.edu/home/about/history/dooley.html" target="_blank" >here</a>.
+                        </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq area end -->
+    <!-- Schedule area start -->
+    <section class="schedulee-area ptb--120 bg-theme
+    text-center" id = "schedule">
+        <div class="container">
+            <div class="row">
+				<div class="schedule_fx">
+                    <span class="text-effect">schedule</span>
+                    <span class="info">Coming soon!</span>
+				</div>
+                <!--
+                <div class="schedule-center col-md-12">
+                <div class="schedule col-md-4">
+                  <div class="schedule-header-row"  style="display: inline-flex;">
+                    <h3 style="float: left;">Friday</h3>
+                    <h3 style="float: right;">Feb 21</h3>
+                  </div>
+                  <div>
+                    <div class="schedule-row">
+                      <button class="btn draw-border">11:00 AM</button>
+                      <p>Hackathon Registration</p>
+                    </div>
+                    <div class="schedule-row">
+                      <button class="btn draw-border">12:00 PM</button>
+                      <p>Conference Registration</p>
+                    </div>
+                    <div class="schedule-row">
+                      <button class="btn draw-border">01:00 PM</button>
+                      <p>Conference Registration</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedule col-md-4">
+                  <div class="schedule-header-row" style="clear: both; display: inline-flex;">
+                    <h3 style="float: left">Saturday</h3>
+                    <h3 style="float: right">Feb 22</h3>
+                  </div>
+                  <div>
+                    <div class="schedule-row">
+                      <button class="btn draw-border">11:00 AM</button>
+                      <p>Hackathon Registration</p>
+                    </div>
+                    <div class="schedule-row">
+                      <button class="btn draw-border">12:00 PM</button>
+                      <p>Conference Registration</p>
+                    </div>
+                    <div class="schedule-row">
+                      <button class="btn draw-border">01:00 PM</button>
+                      <p>Conference Registration</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedule col-md-4">
+                  <div class="schedule-header-row"  style="clear: both; display: inline-flex;">
+                    <h3 style="float: left">Sunday</h3>
+                    <h3 style="float: right">Feb 23</h3>
+                  </div>
+                  <div>
+                    <div class="schedule-row">
+                      <button class="btn draw-border">10:00 AM</button>
+                      <p>Hackathon Registration</p>
+                    </div>
+                    <div class="schedule-row">
+                      <button class="btn draw-border">10:00 AM</button>
+                      <p>Conference Registration</p>
+                    </div>
+                    <div class="schedule-row">
+                      <button class="btn draw-border">10:00 AM</button>
+                      <p>Conference Registration</p>
+                    </div>
+                  </div>
+                </div>
+            -->
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Schedule area end -->
 
-    <!--- Contact --->
-    <main id="contact">
-        <div class="container my-auto pb-4">
-            <div class="jumbotron ">
-                <h1 class="text-center">Contact Us:</h1>
-                <div class="col">
-                    <div class="row text-center my-5">
-                        <div class="col">
-                            <a href="https://www.facebook.com/hackEmory/" class="fa fa-facebook zoom"></a>
+    <!-- Sponsor area start --> 
+    <section class="sponsor-area ptb--120 bg-theme
+    text-center" id ="sponsor">
+        <div class="container">
+            <div class="row">
+                <div class="sponsor_fx">
+                    <span class="text-effect">sponsors</span>
+                    <span>Interested in supporting us? Send us an email at sponsor@dooleyhacks.com!</span>
+				</div>
+                <div class = "logo" style="display: none;">
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="sponsor-single">
+                        <div class="icon">
+                        	<a href="https://www.facebook.com" target="_blank"> 
+                            	<img src="assets/img/icon/fb.png" alt="sponsor logo">
+                        	</a>
                         </div>
-                        <div class="col">
-                            <a href="https://www.instagram.com/dooleyhacks/?hl=en" class="fa fa-instagram zoom"></a>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="sponsor-single">
+                        <div class="icon">
+                        	<a href="https://www.facebook.com" target="_blank"> 
+                            	<img src="assets/img/icon/fb.png" alt="sponsor logo">
+                        	</a>
                         </div>
-                        <div class="col">
-                            <a href="https://twitter.com/dooleyhacks" class="fa fa-twitter zoom"></a>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="sponsor-single">
+                        <div class="icon">
+                        	<a href="https://www.facebook.com" target="_blank"> 
+                            	<img src="assets/img/icon/fb.png" alt="sponsor logo">
+                        	</a>
                         </div>
-                        <div class="col">
-                            <a href="mailto:hello@dooleyhacks.com" class="fa fa-envelope zoom"></a>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="sponsor-single">
+                        <div class="icon">
+                        	<a href="https://www.facebook.com" target="_blank"> 
+                            	<img src="assets/img/icon/fb.png" alt="sponsor logo">
+                        	</a>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="sponsor-single">
+                        <div class="icon">
+                        	<a href="https://www.facebook.com" target="_blank"> 
+                            	<img src="assets/img/icon/fb.png" alt="sponsor logo">
+                        	</a>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="sponsor-single">
+                        <div class="icon">
+                        	<a href="https://www.facebook.com" target="_blank"> 
+                            	<img src="assets/img/icon/fb.png" alt="sponsor logo">
+                        	</a>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="sponsor-single">
+                        <div class="icon">
+                        	<a href="https://www.facebook.com" target="_blank"> 
+                            	<img src="assets/img/icon/fb.png" alt="sponsor logo">
+                        	</a>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="sponsor-single">
+                        <div class="icon">
+                        	<a href="https://www.facebook.com" target="_blank"> 
+                            	<img src="assets/img/icon/fb.png" alt="sponsor logo">
+                        	</a>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sponsor area end -->
+    <!-- team area start -->
+    <section class="team-area ptb--120" id ="team">
+        <div class="container">
+            <div class="row5">
+                <div class="team_fx">
+                    <span class="text-effect">our team</span>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="assets/img/team/chris.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Chris Wyllie</h3>
+                            <h4 class="subtitle">Director</h4>
+                            <p class="showOnHover"></p>
                         </div>
                     </div>
                 </div>
-                <!-- Begin Mailchimp Signup Form -->
-                <div id="mc_embed_signup">
-                    <form action="https://DooleyHacks.us18.list-manage.com/subscribe/post?u=f5fd983ad686d4c8c66842659&amp;id=8dd8fba009" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <label for="mce-EMAIL" class="mailing">Join our mailing list!</label>
-                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f5fd983ad686d4c8c66842659_8dd8fba009" tabindex="-1" value=""></div>
-                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button "></div>
+        
+                <div class="col-md-3 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="assets/img/team/andrew.jpg">
                         </div>
-                    </form>
+                        <div class="team-content">
+                            <h3 class="title">Andrew Chiang</h3>
+                            <h4 class="subtitle">Director of Finance</h4>
+                            <p class="showOnHover"></p>
+                        </div>
+                    </div>
                 </div>
-                <!--End mc_embed_signup-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="assets/img/team/amin.jpeg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Amin El Asery</h3>
+                            <h4 class="subtitle">Director of Marketing</h4>
+                            <p class="showOnHover"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="assets/img/team/zack.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Zack Severino</h3>
+                            <h4 class="subtitle">Director of Operations</h4>
+                            <p class="showOnHover"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="assets/img/team/josh.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Josh Karol</h3>
+                            <h4 class="subtitle">Operations</h4>
+                            <p class="showOnHover"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="assets/img/team/isaac.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Isaac Yoo</h3>
+                            <h4 class="subtitle">Finance</h4>
+                            <p class="showOnHover"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="assets/img/team/nathan.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Nathan Yang</h3>
+                            <h4 class="subtitle">Design</h4>
+                            <p class="showOnHover"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="assets/img/team/abraham.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Abraham Aravelo</h3>
+                            <h4 class="subtitle">Finance</h4>
+                            <p class="showOnHover"></p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </main>
+    </section>
+    <!-- team area end -->
+    <!-- footer area start -->
+    <footer>
+        <section class="footer-area bg-theme ptb--50" id ="contact">
+            <div class="container">
+                <div class="footer-inner">
+                    <ul class="fsocial">
+                        <li><a href="https://www.facebook.com/hackEmory/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/dooleyhacks"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="mailto:hello@dooleyhacks.com"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
 
-    <!--- Footer --->
-    <footer class="footer">
-        <div class="container text-center ">
-            <span class="text-muted " style="font-size: 90%">Coded with <span style="color: goldenrod">&hearts;</span> from the DooleyHacks team.</span>
-        </div>
+                    <p class="finally">Coded with &hearts; from the DooleyHacks team.</p>
+                </div>
+            </div>
+        </section>
     </footer>
-
+    <!-- footer area end -->
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/js/raindrops.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
+
 </html>
